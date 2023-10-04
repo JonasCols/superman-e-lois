@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.topo, .rodape {
+    background-color: #4710c1;
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+.rodape {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.topo div{
+    width: 100%;
+    max-width: 1024px;
+    min-width: 520px;
+    margin: 0 auto;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.topo span {
+    font-size: 22px;
+    margin-right: 30px;
+}
+
+.topo a {
+    color: #4710c1;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.img-capa {
+    width: 100%;
+}
+
+.area {
+    width: 100%;
+    max-width: 1024px;
+    min-width: 380px;
+    margin: 0 auto;
+}
+
+.secao {
+    margin: 15px 35px;
+}
+
+h2, p{
+    margin: 15px 0;
+}
+
+.img-televisao {
+    width: 100%;
+}
+
+.img-galeria {
+    display: flex;
+    overflow: auto;
+    margin: 0 auto 20px auto;
+}
+
+.img-galeria img {
+    width: 300px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px #939393;
+}
